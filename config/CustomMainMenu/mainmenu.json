@@ -1,0 +1,202 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "pack:menu/minecraft.png",
+            "posX" : -10,
+            "posY" : -35,
+            "width" : 223,
+            "height" : 64,
+			"imageWidth" : "256",
+			"imageHeight" : "256",
+            "alignment" : "center"
+        },
+		"blacktransparent":
+		{
+			"image" : "pack:menu/blacktransparent.png",
+			"posX" : 0,
+            "posY" : 0,
+            "width" : 203,
+            "height" : 4096,
+			"alignment" : "top_left"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "",
+            "posX" : 126,
+            "posY" : -30,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/singleplayer.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "",
+            "posX" : 97,
+            "posY" : 17,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/multiplayer.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+            "posX" : 97,
+            "posY" : -77,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/mods.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "posX" : 39,
+            "posY" : -77,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/settings.png",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "",
+            "posX" : 68,
+            "posY" : -30,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/exit.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 39,
+            "posY" : 17,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/language.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 10,
+            "posY" : -30,
+            "width" : 65,
+            "height" : 65,
+			"imageWidth" : "536",
+			"imageHeight" : "536",
+			"texture" : "pack:buttons/refresh.png",
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "connectToServer",
+				"ip" : "ghostsquad.hypixels.pl"
+            }
+        }
+    },
+    "labels":
+	{
+		"copyright" :
+		{
+			"text" : "Copyright Rompompom & Co. Do not distribute!",
+			"hoverText" : "§nCopyright Rompompom & Co. Do not distribute!",
+			"posX" : -226,
+			"posY" : -10,
+			"color" : -1,
+			"alignment" : "bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://discord.gg/cyANnqkX"
+			}
+		},
+		"autors" :
+		{
+			"text" : "Powered by Pidorashka & Ghost23",
+			"hoverText" : "§nPowered by Pidorashka & Ghost23",
+			"posX" : -173,
+			"posY" : -24,
+			"color" : -1,
+			"alignment" : "bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://discord.gg/cyANnqkX"
+			}
+		},
+		"mods":
+        {
+            "text" : "#modsloaded# Mods loaded",
+            "posX" : 63,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+	},
+    "other":
+    {
+        
+        "panorama":
+        {
+            "images" : "pack:panorama/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : false,
+            "gradient" : false
+        }
+    }
+}
